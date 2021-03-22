@@ -1,7 +1,7 @@
 {% set name = "iam-units" %}
 {% set name_ = "iam_units" %}
-{% set version = "2020.4.21" %}
-{% set hash = "042f298a86888aa5fe7771b85549c2f90ffc39255c00670c0ec73c058df647b5" %}
+{% set version = "2021.3.22" %}
+{% set hash = "96cee98b40b763560b24bfdd389174a4561de4fe85bdff59fdbd94cf2b4c5f7d" %}
 
 package:
   name: {{ name }}
@@ -14,21 +14,21 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-  - python
-  - pip
-  - setuptools-scm
+    - python
+    - pip
+    - setuptools-scm
   run:
-  - python
-  - pint
+    - python
+    - pint
 
 test:
   imports:
-  - iam_units
-  - iam_units.emissions
+    - iam_units
+    - iam_units.emissions
 
 about:
   home: https://github.com/IAMconsortium/units
@@ -41,4 +41,4 @@ about:
 
 extra:
   recipe-maintainers:
-  - khaeru
+    - khaeru
