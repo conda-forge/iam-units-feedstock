@@ -1,11 +1,11 @@
-About iam-units
-===============
+About iam-units-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iam-units-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/IAMconsortium/units
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/iam-units-feedstock/blob/main/LICENSE.txt)
 
 Summary: Unit definitions for integrated-assessment research
 
