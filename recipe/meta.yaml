@@ -1,7 +1,7 @@
 {% set name = "iam-units" %}
 {% set name_ = "iam_units" %}
-{% set version = "2025.10.13" %}
-{% set hash = "11cd1231888fb64a8e7d2ffcd447fb0f902b2599325d3e4c5ed5a3e0d5474ad7" %}
+{% set version = "2026.3.10" %}
+{% set hash = "413ce3f8b23001a6a232589b086023a738a8638d827b7926d728cd91579e1471" %}
 
 package:
   name: {{ name }}
